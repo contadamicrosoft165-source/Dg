@@ -1,12 +1,4 @@
-import sys
-import re
-from typing import List, Dict, Tuple
-
-class ESPHighlighter:
-    """Universal ESP highlighting tool for security tools"""
-    
-    # Common ESP patterns to highlight
-    ESP_PATTERNS = {
+{
         "email": r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',
         "ip": r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b',
         "url": r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+',
